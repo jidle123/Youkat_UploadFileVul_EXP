@@ -7,10 +7,10 @@
 **声明**：本EXP仅用于自检，如若因为其他原因造成危害，本人概不负责！
 ## 0x02 使用方法
 + 资产测绘
-```)
+
 FOFA:title=="欢迎使用脸爱云 一脸通智慧管理平台"
 Zoomeye:title:"欢迎使用脸爱云 一脸通智慧管理平台"
-(```
+
 + 参数使用
 python -u http://target_ip/Login.aspx
 python -f file.txt
