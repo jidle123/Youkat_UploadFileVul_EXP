@@ -13,17 +13,24 @@ FOFA:title=="欢迎使用脸爱云 一脸通智慧管理平台"
 Zoomeye:title:"欢迎使用脸爱云 一脸通智慧管理平台"
 
 + 参数使用
+
 python -u http://target_ip/Login.aspx
 python -f file.txt
 + 使用原理
+  
 对指定ip上传post报文构造aspx文件，并通过脚本内response.write写入数据，如若想写入其他数据，请自行修改该行。
 如果上传成功，则返回存在漏洞，请自行进行后续测试。
 + 使用结果
+  
 1. 命令输入
+
 ![1715256662884(1)](https://github.com/jidle123/Youkat_UploadFileVul_EXP/assets/123531867/52db086c-433c-4f28-be04-47f659bb881b)
 2. 后续验证
+
 文件上传测试如下：
+
 ![1715256762203](https://github.com/jidle123/Youkat_UploadFileVul_EXP/assets/123531867/cd22e938-c109-45b4-93c0-84d96e1b681e)
 文件访问存在：
+
 ![1715256860306](https://github.com/jidle123/Youkat_UploadFileVul_EXP/assets/123531867/943c411d-9ead-4fe2-9a2b-973863f0fcc3)
 
