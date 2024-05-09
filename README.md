@@ -17,6 +17,7 @@ Zoomeye:title:"欢迎使用脸爱云 一脸通智慧管理平台"
 ### 参数使用
 
 python -u http://target_ip/Login.aspx
+
 python -f file.txt
 ### 使用原理
   
