@@ -20,11 +20,13 @@ python -f file.txt
   
 对指定ip上传post报文构造aspx文件，并通过脚本内response.write写入数据，如若想写入其他数据，请自行修改该行。
 如果上传成功，则返回存在漏洞，请自行进行后续测试。
+
 + 使用结果
   
 1. 命令输入
 
 ![1715256662884(1)](https://github.com/jidle123/Youkat_UploadFileVul_EXP/assets/123531867/52db086c-433c-4f28-be04-47f659bb881b)
+
 2. 后续验证
 
 文件上传测试如下：
