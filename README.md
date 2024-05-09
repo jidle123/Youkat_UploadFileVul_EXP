@@ -30,6 +30,7 @@ python -f file.txt
 文件上传测试如下：
 
 ![1715256762203](https://github.com/jidle123/Youkat_UploadFileVul_EXP/assets/123531867/cd22e938-c109-45b4-93c0-84d96e1b681e)
+
 文件访问存在：
 
 ![1715256860306](https://github.com/jidle123/Youkat_UploadFileVul_EXP/assets/123531867/943c411d-9ead-4fe2-9a2b-973863f0fcc3)
